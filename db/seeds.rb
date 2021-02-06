@@ -10,3 +10,6 @@
 art = Category.create(name: "Art")
 tech = Category.create(name: "Tech")
 science = Category.create(name: "Science")
+
+
+Syllabus.create(title: "west african art history", description: "west african sculture and other stuff", image_url: "#", category_id: art.id)
